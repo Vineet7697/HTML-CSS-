@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.hero h1 span{
+    color: green;
+}
+.hero{
+    display: flex;
+    color: white;
+    background-color: rgb(166, 155, 155);
+    height: 70px;
+    justify-content: space-around;
+    align-items: center;
+}
+ .hero nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+ }
+ .hero nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+ }
+ .hero nav ul li a:hover{
+    color: green;
+    border-bottom: 5px solid white;
+ }
+.icon{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    gap: 20px;
+ }
+ /* Home section */
+.home {
+    background: url("/home.avif") no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+  }
+  .home h1 {
+    font-size: 55px;
+  }
+  .home p {
+    font-size: 34px;
+  }
+  .btn {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: green;
+    border: 2px solid white;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 20px;
+  }

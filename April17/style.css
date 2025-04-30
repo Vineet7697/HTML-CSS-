@@ -1,0 +1,29 @@
+/* universal selector */
+
+*{
+    background-color: pink;
+}
+/* element selector */
+
+h1{
+    background-color: yellow;
+    color: black;
+}
+/* id selector */
+#head{
+    background-color: purple;
+    color: red;
+}
+
+/* class selector */
+.common{
+    background-color: black;
+    color: red;
+}
+
+/* multiple selector */
+
+#head,
+.common{
+    text-transform: uppercase;
+}

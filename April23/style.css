@@ -1,0 +1,49 @@
+
+
+.main div h1{
+    background-color: red;
+    background-color: #26dd8f;
+    color: white;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.main div p{
+    font-weight: 900;
+    text-align: justify;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    line-height: 30px;
+}
+.head{
+    color: rgb(12, 12, 107);
+}
+.head span{
+    color: red;
+    font-style: italic;
+}
+p{
+    border-style: solid;
+    border-width: 5px;
+    border-color:blue;
+    border: 5px dashed red;
+    border-top: 3px solid black;
+    border-bottom: 3px dotted green;
+    border-left: 3px double red;
+    border-right: 3px dashed rgb(233, 12, 74);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 40px;
+
+}
+.main{
+    background-image: url(https://images.unsplash.com/photo-1744125235979-4286ddb612b5?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1744125235979-4286ddb612b5?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center/cover;
+
+}

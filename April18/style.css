@@ -1,0 +1,29 @@
+table,tr{
+    border: 1px solid rgb(233, 232, 232);
+    border-collapse: collapse;
+   height: 40px;
+    margin: auto;
+}
+tr:hover{
+    background-color: #b9ddd6;
+}
+th{
+    color: white;
+    background-color: #009879;
+   width: 100px;
+}
+td{
+ 
+    text-align: center;
+    
+
+}
+.common{
+    color: #009879;
+    background-color:rgb(230, 224, 224);
+}
+.main{
+    border-bottom-width: 3px;
+    border-bottom-color: #009879;
+}
+
